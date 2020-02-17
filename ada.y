@@ -1,16 +1,16 @@
  /*ada.y
 Matthew Boennighausen
-Project Part 4*/
+Final*/
 %{
 int yylex();
 int yyerror(char*);
 #include <stdio.h>
 #include <string.h>
-#include "binTree.c"
-#include "linkedList.c"
-#include "record.c"
-#include "patchLink.c"
-#include "rec_l.c"
+#include "DataStructures/binTree.c"
+#include "DataStructures/linkedList.c"
+#include "DataStructures/record.c"
+#include "DataStructures/patchLink.c"
+#include "DataStructures/rec_l.c"
 int instruction = 0;
 int current_register =1;
 FILE *output;
