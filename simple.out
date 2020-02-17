@@ -1,0 +1,149 @@
+0 	b := ?
+1	contents b, 0 := ?
+2	contents b, 1 := 5
+3	r1 := 0
+4	pc := ?
+5	halt
+6	r2 := contents b, 4
+7      r3 := contents b, 5
+8	r4:= r3 = r2
+9	pc := ? if not r4
+10	r1 := 3
+11	pc := ?
+12	pc := ?
+13	r5 := 52
+14      r6 := contents b, 5
+15	r7:= r6 = r5
+16     pc := ? if not r7
+17	r8 := 0
+18      r9 := contents b, 4
+19	r10:= r9 < r8
+20	pc := ? if not r10
+21	r11 := 0
+22	r12:= 0
+23	r13:= 3
+24      r14 := contents b, 5
+25	r15:= r14 <= r13
+26	r16:= r12 <= r14
+27	r17:= r15 and r16
+28	pc := 31 if r17
+29	r1 := 1
+30	pc := ?
+31	r18 := b + contents b, 5
+32	contents r18, 6 := r11
+33	pc := ?
+34	pc := 21
+35	pc := ?
+36	r19 := 0
+37      r20 := contents b, 4
+38	r21:= r20 = r19
+39     pc := ? if not r21
+40	r22 := 0
+41	contents b, 5 := r22
+42        pc := ?
+43	r23 := 73
+44	contents b, 5 := r23
+45	r24 := b
+46	r24 := contents r24, 2
+47	contents r24, 4 := contents b, 4 
+48     pc := ?
+49     pc := r1, ?
+50	r1 := 2
+51	pc := ?
+52	r1 := 0
+53	pc := ?
+54	pc := 57
+55	pc := 57
+56	pc := 50
+57	r25 := contents b, 1
+58	b := contents b, 3
+59	pc := r25
+60	r26:= b
+61	b := contents r26, 0
+62	contents b, 3 := r26
+63	r26 := contents r26, 2
+64	r26 := contents r26, 2
+65	contents b, 2 := r26
+66	r27:= 10
+67	contents b, 0 := b + r27
+68	r28:= 71
+69	contents b, 1 := r28
+70	pc := 6
+71	pc := ? if r1
+72	r29 := contents b, 1
+73	b := contents b, 3
+74	pc := r29
+75	r30 := 2
+76	r31:= contents b, 4 + r30
+77	r32:= b
+78	b := contents r32, 0
+79	contents b, 3 := r32
+80	contents b, 2 := r32
+81	r33:= 9
+82	contents b, 0 := b + r33
+83	contents b, 4 := r31
+84	r34:= 87
+85	contents b, 1 := r34
+86	pc := 60
+87	pc := ? if r1
+88	r35 := contents b, 5
+89	contents r35 := contents b, 4
+90	r36 := contents b, 1
+91	b := contents b, 3
+92	pc := r36
+93	r37 := 4
+94	contents b, 5 := r37
+95	r38:= b
+96	b := contents r38, 0
+97	contents b, 3 := r38
+98	contents b, 2 := r38
+99	r39:= 9
+100	contents b, 0 := b + r39
+101	contents b, 4 := contents r38, 5
+102	r40 := 5
+103	r41 := r38 + r40
+104	contents b, 5 := r41
+105	r42:= 108
+106	contents b, 1 := r42
+107	pc := 75
+108	pc := ? if r1
+109     pc := ?
+110     pc := r1, ?
+111	r43 := 44
+112	contents b, 4 := r43
+113	r1 := 0
+114	pc := ?
+115	r44 := 46
+116	contents b, 4 := r44
+117	r1 := 0
+118	pc := ?
+119	pc := 111
+120	pc := 115
+121	pc := 115
+122	r45 := contents b, 1
+123	b := contents b, 3
+124	pc := r45
+0 , 125
+1 , 131
+4 , 93
+9 , 13
+11 , 49
+12 , 45
+16 , 43
+20 , 36
+30 , 49
+33 , 35
+35 , 42
+39 , 42
+42 , 45
+48 , 57
+49 , 53
+51 , 57
+53 , 57
+71 , 72
+87 , 88
+108 , 110
+109 , 122
+110 , 118
+114 , 122
+118 , 122
