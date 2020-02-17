@@ -1,0 +1,15 @@
+#!/bin/bash
+
+lex_file="ada.l"
+yaac_file="ada.y"
+output="test2"
+input="TestPrograms/procWB.ada"
+
+yacc -d -v $yaac_file
+lex $lex_file
+/usr/bin/gcc lex.yy.c y.tab.c -o $output -ll -ly
+./$output < $input
+echo ""
+echo "This is the output file:"
+cat simple.out
+ 
