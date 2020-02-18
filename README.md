@@ -32,7 +32,7 @@ Note: if running on Windows would recommending getting the Lex Flex Yacc Bison E
 
 ### Example of program output
 #### Input Ada File
-'''
+```
    procedure upper is
    begin
        null;
@@ -57,9 +57,9 @@ Note: if running on Windows would recommending getting the Lex Flex Yacc Bison E
 begin
    nest;
 end;
-'''
+```
 #### File Output from Compiler
-'''
+```
 0 	b := ?
 1	contents b, 0 := ?
 2	contents b, 1 := 5
@@ -154,5 +154,5 @@ end;
 40 , 45
 70 , 71
 83 , 84
-'''
+```
 At the bottom are the values that are patched at the end of the program replacing the *?*. 
