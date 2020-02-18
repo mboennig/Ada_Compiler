@@ -23,7 +23,7 @@ Lex Flex Yacc Bison Extension by Faustino Aguilar for reading the syntax in the 
 
 
 ### Running the program 
-1. Choose from the Ada files un the Test Programs folder. You can also use your own Ada program but remember that this compiler only handles a subset of the Ada language (see the features section)
+1. Choose from the Ada files un the Test Programs folder. You can also use your own Ada program but remember that this compiler only handles a subset of the Ada language (see the features section). I would remecommend looking at the formatting of the example files first. 
 2. Open the bash script that is included called *ada_bash* and change the the input to be the ada file that you would like to test 
 3. If all the prerequisites are in place then the script should output a file called *simple.out* 
 
@@ -156,3 +156,8 @@ end;
 83 , 84
 ```
 At the bottom are the values that are patched at the end of the program replacing the *?*. 
+
+### Credit
+*  Compiler Construction Course Professor- Laurie Smith King
+*  John Levine, Lex & Yacc, 2nd Edition
+
