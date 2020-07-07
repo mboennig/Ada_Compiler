@@ -34,7 +34,7 @@ begin
    null;
 end;
 ```
-![](tree1.png)
+![](Tree1.png)
 
 
 ***
@@ -50,4 +50,4 @@ begin
    null;
 end;
 ```
-![](tree2.png)
+![](Tree2.png)
