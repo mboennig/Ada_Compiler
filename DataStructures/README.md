@@ -20,7 +20,7 @@ A linked list of records that stories information about variables, such as type,
 Below are some examples of ada code and the resulting tree
 
 
-Basic example demonstrating the stack of binary trees and the links between data types
+Basic example demonstrating the stack of binary trees and the links between data types.
 In the stack, the outer context(OC) are the predefined variable types which in this case are boolean and integer.
 Variables Y is added to the tree, then the stack is searched to find the Ptype, in this case integer. The same is done with Z. 
 When variable W is added to the tree, the type is defined as an array and a lower and upper bound (lb,ub) are defined as 1 and 7.
