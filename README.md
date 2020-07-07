@@ -1,5 +1,5 @@
 # Ada_Compiler
-The compiler takes source code writen in Ada and produces compiled code. A sample of this compiled code can be seen in *simple.out*. The compiler seperates the Ada code into tokens, then parses these tokens and puts them into code trees. The compiler makes basic syntax checks. This compiler does not handle the full Ada langauge, but it does handle a large subset of it (see below). The Ada grammar is contained within the *ada.y* and *ada.l* files. The *ada.y* file contains a majority of the grammar specifications as well as the C code that goes along with it. All the data structures used in *ada.y* are included in a seperate folder. 
+The compiler takes source code written in Ada and produces compiled code. A sample of this compiled code can be seen in *simple.out*. The compiler separates the Ada code into tokens, then parses these tokens and puts them into code trees. The compiler makes basic syntax checks. This compiler does not handle the full Ada language, but it does handle a large subset of it (see below). The Ada grammar is contained within the *ada.y* and *ada.l* files. The *ada.y* file contains a majority of the grammar specifications as well as the C code that goes along with it. All the data structures used in *ada.y* are included in a separate folder. 
 
 ### Features of the Compiler
 1. Mutliple data types (arrays, records, local and non-local)
@@ -23,8 +23,8 @@ Lex Flex Yacc Bison Extension by Faustino Aguilar for reading the syntax in the 
 
 
 ### Running the program 
-1. Choose from the Ada files un the Test Programs folder. You can also use your own Ada program but remember that this compiler only handles a subset of the Ada language (see the features section). I would remecommend looking at the formatting of the example files first. 
-2. Open the bash script that is included called *ada_bash* and change the the input to be the ada file that you would like to test 
+1. Choose from the Ada files un the Test Programs folder. You can also use your own Ada program but remember that this compiler only handles a subset of the Ada language (see the features section). I would recommend looking at the formatting of the example files first. 
+2. Open the bash script that is included called *ada_bash* and change the input to be the ada file that you would like to test 
 3. If all the prerequisites are in place then the script should output a file called *simple.out* 
 
 Note: if running on Windows would recommending getting the Lex Flex Yacc Bison Extension for Visual Studio. 
