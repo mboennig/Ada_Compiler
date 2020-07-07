@@ -17,7 +17,7 @@ A linked list of records that keep track of the variable name, type and the amou
 A linked list of records that stories information about variables, such as type, register number, offset and if it is local or non-local.   
 ***
 ### Examples
-Below are some examples of ada code and the resulting tree that results
+Below are some examples of ada code and the resulting tree
 
 
 Basic example demonstrating the stack of binary trees and the links between data types
